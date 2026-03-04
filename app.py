@@ -42,8 +42,8 @@ st.markdown(
             padding: 16px 20px;
             box-shadow: 0 1px 3px rgba(0,0,0,.07);
         }
-        [data-testid="stMetricLabel"]  { font-size: 0.78rem !important; font-weight: 600; color: #64748b !important; }
-        [data-testid="stMetricValue"]  { font-size: 1.7rem  !important; color: #0f172a    !important; }
+        [data-testid="stMetricLabel"]  { font-size: 0.78rem !important; font-weight: 600; color: #ffffff !important; }
+        [data-testid="stMetricValue"]  { font-size: 1.7rem  !important; color: #ffffff    !important; }
 
         /* Section headers */
         h2 { color: #1e293b; font-weight: 700; }
@@ -187,7 +187,7 @@ PLOT_LAYOUT = dict(
     paper_bgcolor="white",
     xaxis=dict(showgrid=True, gridcolor="#f1f5f9", linecolor="#e2e8f0"),
     hovermode="x unified",
-    font=dict(family="Inter, Arial, sans-serif", size=12),
+    font=dict(family="Inter, Arial, sans-serif", size=12, color="black"),
 )
 
 
